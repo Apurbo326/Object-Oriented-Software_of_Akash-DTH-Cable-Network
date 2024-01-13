@@ -1,0 +1,10 @@
+Product ID : 1 , Quantity : 4 , Name : Kitkat , Description : Chocolate , Expire Date : 2024-11-20 , Price : 150.99
+Product ID : 2 , Quantity : 3 , Name : Lux , Description : Soap , Expire Date : 2024-05-15 , Price : 69.65
+Product ID : 3 , Quantity : 3 , Name : Cocacola , Description : Soft Drinks , Expire Date : 2024-09-26 , Price : 50.0
+Product ID : 4 , Quantity : 3 , Name : pepsi , Description : soft drinks , Expire Date : 2024-08-05 , Price : 45.0
+Product ID : 5 , Quantity : 3 , Name : Dove , Description : Soap , Expire Date : 2024-11-14 , Price : 60.56
+Product ID : 6 , Quantity : 2 , Name : Lays , Description : Chips , Expire Date : 2024-08-06 , Price : 35.0
+Product ID : 7 , Quantity : 1 , Name : iPhone 15 , Description : Smart Phone , Expire Date : 2031-11-06 , Price : 150000.0
+Product ID : 8 , Quantity : 4 , Name : Xiaomi Mi 11x , Description : Smart Phone , Expire Date : 2025-11-21 , Price : 35799.99
+Product ID : 9 , Quantity : 4 , Name : Dairy Milk Silk , Description : Chocolate , Expire Date : 2024-08-13 , Price : 359.5
+Product ID : 10 , Quantity : 4 , Name : SoundCore Mini 2 , Description : SoundBox , Expire Date : 2025-11-15 , Price : 3000.0

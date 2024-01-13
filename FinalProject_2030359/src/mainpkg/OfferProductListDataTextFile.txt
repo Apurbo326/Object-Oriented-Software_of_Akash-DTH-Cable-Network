@@ -1,0 +1,4 @@
+Product ID : 6 , Quantity : 2 , Name : Lays , Description : Chips , Expire Date : 2024-08-06 , Price : 35.0
+Product ID : 3 , Quantity : 3 , Name : Cocacola , Description : Soft Drinks , Expire Date : 2024-09-26 , Price : 50.0
+Product ID : 7 , Quantity : 1 , Name : iPhone 15 , Description : Smart Phone , Expire Date : 2031-11-06 , Price : 150000.0
+Product ID : 1 , Quantity : 4 , Name : Kitkat , Description : Chocolate , Expire Date : 2024-11-20 , Price : 150.99

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="683.0" prefWidth="744.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.AddNewProductController">
+   <children>
+      <Text layoutX="69.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product ID : " />
+      <Text layoutX="50.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Name : " />
+      <Text layoutX="59.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Price : " />
+      <Text layoutX="372.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description : " />
+      <Text layoutX="71.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expire Date : " />
+      <Text layoutX="88.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity : " />
+      <DatePicker fx:id="ExpireDate" layoutX="173.0" layoutY="263.0" prefHeight="31.0" prefWidth="171.0" />
+      <TextField fx:id="DescriptionTextField" layoutX="478.0" layoutY="97.0" prefHeight="148.0" prefWidth="218.0" />
+      <TextField fx:id="ProductPriceTextField" layoutX="173.0" layoutY="214.0" prefHeight="31.0" prefWidth="171.0" />
+      <TextField fx:id="ProductIDTextField" layoutX="173.0" layoutY="97.0" prefHeight="31.0" prefWidth="171.0" />
+      <TextField fx:id="ProductNameTextField" layoutX="173.0" layoutY="156.0" prefHeight="31.0" prefWidth="171.0" />
+      <ComboBox fx:id="QuantityComboBox" layoutX="173.0" layoutY="323.0" prefHeight="31.0" prefWidth="171.0" />
+      <Label fx:id="countLabel" layoutX="48.0" layoutY="476.0" prefHeight="21.0" prefWidth="649.0" style="-fx-background-color: #908989;" textFill="#fff4f4" />
+      <Button fx:id="AddProductButton" layoutX="478.0" layoutY="281.0" mnemonicParsing="false" onMouseClicked="#AddProductButtonOnClicked" prefHeight="84.0" prefWidth="218.0" text="ADD Product">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </Button>
+      <Text layoutX="272.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADD NEW PRODUCT">
+         <font>
+            <Font name="Calibri Bold Italic" size="30.0" />
+         </font>
+      </Text>
+      <Button fx:id="BackButton" layoutX="39.0" layoutY="35.0" mnemonicParsing="false" onMouseClicked="#BackButtonOnClicked" style="-fx-background-color: #8c0000;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="13.0" />
+         </font>
+      </Button>
+      <CheckBox fx:id="TextCheckBox" layoutX="300.0" layoutY="393.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="145.0" text="Save as Text File" />
+      <Button fx:id="SaveAsTextButton" layoutX="275.0" layoutY="431.0" mnemonicParsing="false" onMouseClicked="#SaveAsTextButtonIsClicked" text="Save the Product ArrayList" />
+      <TextArea fx:id="OutputTextField" layoutX="48.0" layoutY="514.0" prefHeight="148.0" prefWidth="649.0" />
+   </children>
+</AnchorPane>

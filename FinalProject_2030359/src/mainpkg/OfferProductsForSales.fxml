@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="736.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.OfferProductsForSalesController">
+   <children>
+      <Text layoutX="205.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OFFER PRODUCTS FOR SALES">
+         <font>
+            <Font name="Calibri Bold Italic" size="30.0" />
+         </font>
+      </Text>
+      <Button fx:id="backButton" layoutX="40.0" layoutY="55.0" mnemonicParsing="false" onMouseClicked="#backButtonOnClicked" style="-fx-background-color: #8c0000;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="ShowInventoryButton" layoutX="58.0" layoutY="130.0" mnemonicParsing="false" onMouseClicked="#ShowInventoryButtonOnClicked" prefHeight="200.0" prefWidth="147.0" text="SHOW INVENTORY">
+         <font>
+            <Font name="Arial Narrow" size="15.0" />
+         </font>
+      </Button>
+      <Text layoutX="58.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product ID : " />
+      <TextField fx:id="ProductIDTextField" layoutX="152.0" layoutY="372.0" />
+      <CheckBox fx:id="SaveTextFileCheckBox" layoutX="583.0" layoutY="376.0" mnemonicParsing="false" onAction="#IsSaveTextFileCheckboxClicked" text="Save as Text file" />
+      <Button fx:id="ShowOfferProductButton" layoutX="557.0" layoutY="510.0" mnemonicParsing="false" onMouseClicked="#ShowOfferProductButtonOnClicked" prefHeight="31.0" prefWidth="186.0" text="Show Offer Product List" />
+      <Text layoutX="62.0" layoutY="431.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selected Product :" />
+      <TextArea fx:id="InventoryTextFileOutputArea" layoutX="227.0" layoutY="130.0" prefHeight="200.0" prefWidth="512.0" />
+      <TextArea fx:id="SelectProductOutputTextField" layoutX="62.0" layoutY="444.0" prefHeight="21.0" prefWidth="679.0" />
+      <Button fx:id="ShowSelectedProductButton" layoutX="373.0" layoutY="372.0" mnemonicParsing="false" onMouseClicked="#ShowSelectedProductButtonOnClicked" text="Show Selected Product" />
+      <Text layoutX="62.0" layoutY="542.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Offered Product List :" />
+      <TextArea fx:id="OfferedProductListOutputTextArea" layoutX="62.0" layoutY="553.0" prefHeight="165.0" prefWidth="679.0" />
+   </children>
+</AnchorPane>

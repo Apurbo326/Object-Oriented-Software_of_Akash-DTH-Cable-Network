@@ -1,0 +1,5 @@
+Service ID : 1 , Quantity : 5 , Name : Daily Package , Description : Talk-Time , Expire Date : 2023-11-30 , Price : 30.5
+Service ID : 2 , Quantity : 4 , Name : Weekly Package , Description : Internet , Expire Date : 2023-12-06 , Price : 150.66
+Service ID : 3 , Quantity : 2 , Name : Monthly Package , Description : Streaming Service , Expire Date : 2024-01-30 , Price : 599.0
+Service ID : 4 , Quantity : 5 , Name : 3 Days Package , Description : Talk-Time , Expire Date : 2023-12-03 , Price : 65.0
+Service ID : 5 , Quantity : 5 , Name : 3 Days Package , Description : Internet , Expire Date : 2023-12-03 , Price : 99.0
